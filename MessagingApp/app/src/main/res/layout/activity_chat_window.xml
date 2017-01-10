@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.avinash.homework7.ChatWindowActivity"
+    android:orientation="vertical">
+
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/friendImage"/>
+
+
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="421dp"
+        android:id="@+id/msgsListView"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="5dp" />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/typeMsg"
+            android:hint="type your message here.."
+            android:layout_marginRight="10dp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sendImage"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/send" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/uploadImage"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/gallery" />
+    </LinearLayout>
+
+</LinearLayout>

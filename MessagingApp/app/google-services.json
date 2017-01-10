@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "691166508334",
+    "firebase_url": "https://homework7-40a01.firebaseio.com",
+    "project_id": "homework7-40a01",
+    "storage_bucket": "homework7-40a01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691166508334:android:3ece4a7c81fded36",
+        "android_client_info": {
+          "package_name": "com.avinash.homework7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691166508334-5ir1kcmtqghtt6tmbr8sa139kidpeda1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avinash.homework7",
+            "certificate_hash": "37662B9E1C601C52D0634C46FF6B668B3AC5FB14"
+          }
+        },
+        {
+          "client_id": "691166508334-dkut5ffm2n7v8ol1ieedqnf56hq359pj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYB0UNR1A0-K3FnE9dSRQnmw3mriJMejE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691166508334-dkut5ffm2n7v8ol1ieedqnf56hq359pj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
